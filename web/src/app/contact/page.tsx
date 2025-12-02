@@ -35,7 +35,7 @@ export default function ContactPage() {
                     className="underline hover:no-underline hover:text-[#37CC97] transition-colors"
                     href="mailto:sales@techsmithconsulting.com"
                   >
-                    sales@techsmithconsulting.com
+                    sales@darylsmithconsulting.com
                   </a>
                 </p>
 
