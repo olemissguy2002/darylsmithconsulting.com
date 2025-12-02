@@ -66,7 +66,7 @@ export default function ContactPage() {
 
               {/* Calendly Inline Widget */}
               <CalendlyInline
-                url="https://calendly.com/d/ctgc-6mr-n53?background_color=1a1a1a&text_color=ffffff&primary_color=00ff4f"
+                url="https://calendly.com/daryl-smith-consulting/30min"
                 minWidth={320}
                 height={700}
               />
