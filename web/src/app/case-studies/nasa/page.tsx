@@ -39,6 +39,9 @@ export default function NasaCaseStudyPage() {
             <p className="text-gray-300">
               We engineered a distributed content delivery mesh with automated replication, data governance, and release controls so critical information reached students, scientists, and external partners without delay.
             </p>
+            <p className="text-gray-300">
+              This cloud migration success story shows how distributed caching and governed releases preserved data fidelity while expanding reach. Stakeholders gained reliable access to mission data without compromising security boundaries or operational tempo.
+            </p>
           </div>
           <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 space-y-4">
             <h2 className="text-xl font-semibold text-white">Impact snapshot</h2>

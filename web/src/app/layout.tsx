@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import { ENABLE_AI_PORTFOLIO } from "@/lib/env";
 import SiteChatbot from "@/components/SiteChatbot";
 import Footer from "@/components/Footer";
+import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
   title: "Daryl Smith Consulting",
@@ -29,10 +30,11 @@ export default function RootLayout({
       <body className="min-h-screen bg-black text-white">
         {/* Global top nav */}
         <Nav />
-
         {/* Page content */}
         <main>{children}</main>
-
+        <Analytics />
+          {children}
+        {/* Staging/dev-only chatbot, hidden in production */}
         {/* Staging/dev-only chatbot, hidden in production */}
         {ENABLE_AI_PORTFOLIO && (
           <div className="fixed bottom-4 right-4 z-40">

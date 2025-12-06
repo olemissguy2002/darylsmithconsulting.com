@@ -39,6 +39,9 @@ export default function MedicaidOptimizationCaseStudy() {
             <p className="text-gray-300">
               We delivered a cross-functional tiger team to model realistic traffic, uncover cascading performance issues, and automate remediation so the program could scale confidently.
             </p>
+            <p className="text-gray-300">
+              This Medicaid modernization example balanced throughput, accuracy, and cost with disciplined DevSecOps practices—turning ad-hoc firefighting into predictable operations. Business stakeholders gained confidence that enrollment spikes would be handled without jeopardizing compliance or citizen experience.
+            </p>
           </div>
           <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 space-y-4">
             <h2 className="text-xl font-semibold text-white">Impact snapshot</h2>
