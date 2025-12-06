@@ -5,7 +5,8 @@ import FloatingLogo from "@/components/FloatingLogo";
 const studies = [
   {
     title: "Medicaid Optimization Program",
-    summary: "Scaled an eligibility and payment platform to handle seasonal surges without compromising accuracy.",
+    summary:
+      "Scaled an eligibility and payment platform to handle seasonal surges without compromising accuracy. This Medicaid modernization example paired performance engineering with automation to keep determinations fast while containing costs. State leaders gained clearer visibility into citizen impact and a runway for future cloud migration success.",
     bullets: [
       "Advanced load / soak testing paired with observability deep dives",
       "Automated regression harness to replay real-world traffic",
@@ -15,7 +16,8 @@ const studies = [
   },
   {
     title: "DEA CI/CD & Security Hardening",
-    summary: "Modernized releases for sensitive investigative workloads with policy-as-code and zero-trust guardrails.",
+    summary:
+      "Modernized releases for sensitive investigative workloads with policy-as-code and zero-trust guardrails. This DevSecOps case study shows how automated gates, CodeQL, and artifact signing reduced risk while improving velocity. Mission owners saw faster field delivery with compliance evidence at every stage.",
     bullets: [
       "Blended DevSecOps platform with STIG-based baselines",
       "Integrated policy gates into multi-stage pipelines",
@@ -25,7 +27,8 @@ const studies = [
   },
   {
     title: "NASA Content Delivery System",
-    summary: "Built a resilient data platform to move telemetry, science packets, and immersive training assets worldwide.",
+    summary:
+      "Built a resilient data platform to move immersive training assets worldwide. The cloud migration success story highlights distributed caching, governance, and release controls that kept science data flowing. Educators and researchers received reliable access without sacrificing security or performance.",
     bullets: [
       "Designed distributed caching and replication",
       "Established repeatable release governance",
@@ -50,6 +53,14 @@ export default function CaseStudiesPage() {
 
       <section className="container mx-auto px-6 md:px-10 lg:px-16 py-12 md:py-16 text-gray-200">
         <div className="space-y-10">
+          <div className="space-y-3 max-w-4xl">
+            <h1 className="text-4xl font-semibold text-white">DevSecOps and Cloud Case Studies</h1>
+            <p className="text-gray-300">
+              Explore real-world examples of DevSecOps, cloud, and modernization work across regulated environments.
+              Each case study details the business outcomes, release rigor, and automation patterns that kept teams moving fast and safely.
+            </p>
+          </div>
+
           <div className="space-y-4 max-w-3xl">
             <h2 className="text-3xl font-semibold text-white">Our Work</h2>
             <p className="text-gray-300">

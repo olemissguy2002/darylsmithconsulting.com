@@ -50,6 +50,15 @@ export default function ServicesPage() {
 
       <section className="container mx-auto px-6 md:px-10 lg:px-16 py-12 md:py-16 text-gray-200">
         <div className="space-y-10">
+          <div className="space-y-3 max-w-4xl">
+            <h1 className="text-4xl font-semibold text-white">
+              AI, Cloud, and DevSecOps Consulting Services
+            </h1>
+            <p className="text-gray-300">
+              Daryl Smith Consulting delivers AI consulting services, cloud migration services, DevSecOps consulting, and release management services that help teams move faster without sacrificing governance. We build pipelines with GitHub Advanced Security, CodeQL, SBOM, and CI/CD practices so your software supply chain is observable, secure, and ready to scale.
+            </p>
+          </div>
+
           <div className="space-y-4 max-w-3xl">
             <h1 className="text-3xl font-semibold text-white">What We Offer</h1>
             <p className="text-gray-300">
@@ -88,6 +97,47 @@ export default function ServicesPage() {
               Iterate, automate, and scale while keeping stakeholders informed at every checkpoint.
             </p>
           </div>
+
+          <section
+            aria-labelledby="services-faq-heading"
+            className="mt-10 space-y-4 text-gray-300"
+          >
+            <h2 id="services-faq-heading" className="text-2xl font-semibold text-white">
+              Services FAQ
+            </h2>
+            <details className="bg-white/[0.02] border border-white/10 rounded-lg p-4">
+              <summary className="text-white font-semibold">
+                What is DevSecOps?
+              </summary>
+              <p className="mt-2">
+                DevSecOps weaves security into daily delivery by standardizing CI/CD pipelines, automating code scanning, tightening release management, and giving teams clear guardrails so changes ship faster with less risk.
+              </p>
+            </details>
+            <details className="bg-white/[0.02] border border-white/10 rounded-lg p-4">
+              <summary className="text-white font-semibold">
+                How does a cloud migration engagement work?
+              </summary>
+              <p className="mt-2">
+                We inventory your workloads, design a landing zone, and sequence migrations to minimize downtime, then layer in observability, cost controls, and playbooks so the cloud runs predictably after cutover.
+              </p>
+            </details>
+            <details className="bg-white/[0.02] border border-white/10 rounded-lg p-4">
+              <summary className="text-white font-semibold">
+                Do you work with small businesses?
+              </summary>
+              <p className="mt-2">
+                Yes—our services are tailored to small and mid-sized teams, focusing on pragmatic automation, clear release processes, and right-sized security that fits your budget and pace.
+              </p>
+            </details>
+            <details className="bg-white/[0.02] border border-white/10 rounded-lg p-4">
+              <summary className="text-white font-semibold">
+                Do you support CMS or Medicaid programs?
+              </summary>
+              <p className="mt-2">
+                We have experience delivering for CMS, Medicaid, and other federal programs, including navigating compliance, auditability, and vendor standards while keeping delivery on schedule.
+              </p>
+            </details>
+          </section>
         </div>
       </section>
     </main>

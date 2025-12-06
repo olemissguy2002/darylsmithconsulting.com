@@ -19,6 +19,15 @@ export default function AboutPage() {
 
       <section className="container mx-auto px-6 md:px-10 lg:px-16 py-12 md:py-16 text-gray-200">
         <div className="space-y-10">
+          <div className="space-y-3 max-w-4xl">
+            <h1 className="text-4xl font-semibold text-white">
+              About Daryl Smith
+            </h1>
+            <p className="text-gray-300 leading-relaxed">
+              I am an AI consultant in Mississippi with cloud architect experience and a background leading release management for Medicaid, CMS, and ACA systems—helping regulated teams modernize with confidence.
+            </p>
+          </div>
+
           <h2 className="text-3xl font-semibold text-white">Who We Are</h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -44,6 +53,9 @@ export default function AboutPage() {
               <p className="text-gray-300 leading-relaxed">
                 We translate AI/ML, Cloud, and Automation principles into measurable outcomes—lowering risk, improving visibility,
                 and boosting release velocity for mission-critical systems.
+              </p>
+              <p className="text-gray-300 leading-relaxed">
+                Why CMS / Medicaid programs work with us: we understand Medicaid back-end systems, ACA-related workflows, and the controls required in regulated environments. That experience lets us deliver modernization while maintaining auditability, uptime, and stakeholder trust.
               </p>
             </div>
           </div>

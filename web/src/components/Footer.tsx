@@ -6,6 +6,9 @@ export default function Footer() {
           <span>© {new Date().getFullYear()} Daryl Smith Consulting</span>
           <span className="text-white">AI/ML • Cloud • DevSecOps • Automation</span>
         </div>
+        <p className="text-xs text-gray-400 mt-2">
+          Serving clients nationwide | Based in Brandon, MS (Jackson Metro Area)
+        </p>
       </div>
     </footer>
   );

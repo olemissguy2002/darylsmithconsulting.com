@@ -39,6 +39,9 @@ export default function DeaCaseStudyPage() {
             <p className="text-gray-300">
               We partnered with in-house engineers to implement a hardened DevSecOps platform—introducing automated governance, safer releases, and dashboards that satisfied both cyber and mission leadership.
             </p>
+            <p className="text-gray-300">
+              In this DevSecOps case study, automated policy gates, SBOM-backed supply chain controls, and CodeQL scanning cut audit cycles and reduced deployment risk. The business impact: faster feature delivery to the field with evidence-ready compliance for every release train.
+            </p>
           </div>
           <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 space-y-4">
             <h2 className="text-xl font-semibold text-white">Impact snapshot</h2>

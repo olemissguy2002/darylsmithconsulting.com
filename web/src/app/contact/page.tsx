@@ -19,6 +19,9 @@ export default function ContactPage() {
       <section className="container mx-auto px-6 md:px-10 lg:px-16 py-12 md:py-16 text-gray-200">
         <div className="space-y-10">
           <h2 className="text-3xl font-semibold text-white">Get in touch</h2>
+          <p className="text-gray-300 max-w-3xl">
+            Daryl Smith Consulting provides AI, cloud, automation, and DevSecOps services to clients nationwide, specializing in Mississippi, Louisiana, Alabama, Tennessee, and federal agencies. Based in Brandon, MS in the Jackson Metro Area, we help teams modernize with practical delivery playbooks and secure engineering practices.
+          </p>
 
           <div className="grid md:grid-cols-2 gap-8">
 
@@ -33,7 +36,7 @@ export default function ContactPage() {
                   <span className="text-gray-400">Email: </span>
                   <a
                     className="underline hover:no-underline hover:text-[#37CC97] transition-colors"
-                    href="mailto:sales@techsmithconsulting.com"
+                    href="mailto:sales@darylsmithconsulting.com"
                   >
                     sales@darylsmithconsulting.com
                   </a>
