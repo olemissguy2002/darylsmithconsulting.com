@@ -28,12 +28,14 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className="min-h-screen bg-black text-white">
+        <Analytics />
+
         {/* Global top nav */}
         <Nav />
+
         {/* Page content */}
         <main>{children}</main>
-        <Analytics />
-          {children}
+      
         {/* Staging/dev-only chatbot, hidden in production */}
         {/* Staging/dev-only chatbot, hidden in production */}
         {ENABLE_AI_PORTFOLIO && (
