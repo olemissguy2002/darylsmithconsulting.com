@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeroVideo from "@/components/PageHeroVideo";
 import FloatingLogo from "@/components/FloatingLogo";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/case-studies/medicaid_optimization",
+  },
+};
 
 const highlights = [
   {

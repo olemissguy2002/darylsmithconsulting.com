@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://darylsmithconsulting.com
+Host: https://www.darylsmithconsulting.com
 
 # Sitemaps
-Sitemap: https://darylsmithconsulting.com/sitemap.xml
+Sitemap: https://www.darylsmithconsulting.com/sitemap.xml

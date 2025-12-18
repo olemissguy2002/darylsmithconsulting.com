@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import PageHeroVideo from "@/components/PageHeroVideo";
 import FloatingLogo from "@/components/FloatingLogo";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/ai-portfolio",
+  },
+};
 
 const projects = [
   {

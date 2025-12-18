@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.darylsmithconsulting.com"),
   title: "Daryl Smith Consulting",
   description: "AI, Cloud, DevSecOps, and Automation consulting.",
 };

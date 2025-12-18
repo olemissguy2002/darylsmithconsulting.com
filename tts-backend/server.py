@@ -11,6 +11,9 @@ from fastapi.responses import FileResponse, JSONResponse
 import numpy as np
 import soundfile as sf
 
+CANONICAL_ORIGIN = "https://www.darylsmithconsulting.com"
+APEX_ORIGIN = CANONICAL_ORIGIN.replace("www.", "")
+
 OUT_DIR = "/app/out"
 os.makedirs(OUT_DIR, exist_ok=True)
 
@@ -19,8 +22,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://darylsmithconsulting.com",
-        "https://www.darylsmithconsulting.com",
+        CANONICAL_ORIGIN,
+        APEX_ORIGIN,
     ],
     allow_credentials=True,
     allow_methods=["*"],

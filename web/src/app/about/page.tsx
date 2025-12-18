@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeroVideo from "@/components/PageHeroVideo";
 import FloatingLogo from "@/components/FloatingLogo";
 
-export const metadata = { title: "About" };
+export const metadata: Metadata = {
+  title: "About",
+  alternates: {
+    canonical: "/about",
+  },
+};
 
 export default function AboutPage() {
   return (

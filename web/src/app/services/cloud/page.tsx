@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeroVideo from "@/components/PageHeroVideo";
 import FloatingLogo from "@/components/FloatingLogo";
@@ -10,6 +11,12 @@ type CloudSection = {
 type CloudCategory = {
   title: string;
   sections: CloudSection[];
+};
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/services/cloud",
+  },
 };
 
 const focusAreas = [

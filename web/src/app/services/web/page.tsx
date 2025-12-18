@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeroVideo from "@/components/PageHeroVideo";
 import FloatingLogo from "@/components/FloatingLogo";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/services/web",
+  },
+};
 
 const capabilities = [
   "Brand workshops, UX research, and component-driven design systems",

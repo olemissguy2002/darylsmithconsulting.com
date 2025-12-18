@@ -213,7 +213,7 @@ You have two AWS-friendly options:
 ### 6. Wire the frontend to the backend
 
 - Update DNS so `app.darylsmithconsulting.com` (frontend) and `api.darylsmithconsulting.com` (backend) both resolve via HTTPS.
-- Ensure CORS on the backend includes both domains (`server.py` already whitelists `https://darylsmithconsulting.com` and `https://www.darylsmithconsulting.com` – add Amplify/CloudFront domains if different).
+- Ensure CORS on the backend includes both domains (`server.py` already whitelists `https://www.darylsmithconsulting.com` and the apex variant – add Amplify/CloudFront domains if different).
 - Validate that the frontend `.env.production` matches the deployed backend URL before running `npm run build`.
 
 ### 7. Observability and maintenance

@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import HeroVideo from "@/components/HeroVideo";
 import FloatingLogo from "@/components/FloatingLogo";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function HomePage() {
   return (
@@ -14,8 +21,8 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
             name: "Daryl Smith Consulting",
-            url: "https://darylsmithconsulting.com",
-            image: "https://darylsmithconsulting.com/FullLogo.png",
+            url: "https://www.darylsmithconsulting.com",
+            image: "https://www.darylsmithconsulting.com/FullLogo.png",
             description:
               "Affordable AI, Cloud, Automation, DevSecOps, Release Management and CMS/Medicaid modernization consulting.",
             areaServed: "United States",
@@ -70,7 +77,7 @@ export default function HomePage() {
             style={{ backgroundColor: "#37CC97" }}
           />
           <p className="text-gray-300 max-w-3xl leading-relaxed">
-            My background includes delivering CMS, Medicaid, and other federal
+            My background includes delivering CMS, Medicaid, DoD, DoJ, and other federal
             program platforms, so compliance and auditability come baked in. I
             can help you navigate data handling standards, vendor reviews, and
             risk assessments while keeping delivery schedules realistic. If you
