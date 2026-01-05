@@ -77,7 +77,7 @@ export default function HomePage() {
             style={{ backgroundColor: "#37CC97" }}
           />
           <p className="text-gray-300 max-w-3xl leading-relaxed">
-            My background includes delivering CMS, Medicaid, DoD, DoJ, and other federal
+            Our background includes delivering CMS, Medicaid, DoD, DoJ, and other federal
             program platforms, so compliance and auditability come baked in. I
             can help you navigate data handling standards, vendor reviews, and
             risk assessments while keeping delivery schedules realistic. If you
