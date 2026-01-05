@@ -40,7 +40,7 @@ export default function HomePage() {
         <div className="space-y-4">
           <p className="text-gray-300 max-w-3xl leading-relaxed">
             Daryl Smith Consulting partners with small to mid-sized businesses
-            to make AI practical and measurable. I help owners clarify the
+            to make AI practical and measurable. We help owners clarify the
             problems AI should solve, map data readiness, and design affordable
             AI solutions that automate support, streamline back-office tasks,
             and surface insights your team can trust. From picking the right
@@ -55,10 +55,10 @@ export default function HomePage() {
           />
           <p className="text-gray-300 max-w-3xl leading-relaxed">
             Cloud migration consulting is often less about tools and more about
-            sequencing. I assess what should move, what should stay, and how to
+            sequencing. We assess what should move, what should stay, and how to
             modernize without disrupting revenue. We design landing zones, IaC
             patterns, and cost controls that keep operations lean. Paired with
-            DevSecOps consulting, I help you standardize pipelines, embed
+            DevSecOps consulting, We help you standardize pipelines, embed
             security scanning, and tighten release management so changes ship
             faster with fewer surprises. Whether you&apos;re adopting
             containers, serverless, or managed services, I guide teams through
